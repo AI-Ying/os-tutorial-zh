@@ -5,11 +5,11 @@
 
 ###实验软件
 
-1. nasm 
-2. gcc
-3. make
-4. qemu
-5. gdb
+- nasm 
+- gcc
+- make
+- qemu
+- gdb
 
 ###实验平台
 
