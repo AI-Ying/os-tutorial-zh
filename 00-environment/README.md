@@ -1,30 +1,28 @@
-#环境搭建
-
+环境搭建
+========
 所有文件的编写是在linux下完成的, window下面可以同样的工具进行编写, 或者选择虚拟机也可以. 虽然文章会给出windows下软件的解决方案, 但还是推荐windows用户安装linux虚拟机来学习
 
 
-###实验软件
-
+实验软件
+----------------
 - nasm 
 - gcc
 - make
 - qemu
 - gdb
 
-###实验平台
+实验平台
+----------------
 
 linux OR windows
 
-###软件安装
-
-####nasm安装
-
+####安装nasm
 #####linux安装nasm
 
-1. 可以进入官网选择相应版本下载源码包编译
-[http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D]
+- 可以进入官网选择相应版本下载源码包编译
+http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D
 
-2. ubuntu在终端运行`sudo apt install nasm`
+- ubuntu在终端运行`sudo apt install nasm`
 
 #####window安装nasm
 
