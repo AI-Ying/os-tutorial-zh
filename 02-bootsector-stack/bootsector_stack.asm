@@ -1,11 +1,21 @@
+;--------------------------------------------------------------
+;
+;    文件名：    bootsector_stack.asm
+;    功  能：    通过堆栈的方式输出字符ABC
+;    描  述：    堆栈是一种数据结构,
+;
+;
+;
+;
+;
 mov ah, 0x0e
 
 mov bp, 0x8000
 mov sp, bp
 
-push 'A'
-push 'B'
 push 'C'
+push 'B'
+push 'A'
 
 pop bx
 mov al, bl
