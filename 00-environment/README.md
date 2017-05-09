@@ -14,42 +14,44 @@
 实验平台
 ----------------
 
-linux OR windows
+**linux** OR **windows**
 
-####安装nasm
-#####linux安装nasm
+安装nasm
+-------------
 
+linux安装nasm
+-------------------
 - 可以进入官网选择相应版本下载源码包编译
 http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D
 
 - ubuntu在终端运行`sudo apt install nasm`
 
-#####window安装nasm
-
+window安装nasm
+----------------------
 进入官网选择相应版本目录下的win版本的nasm
-[http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D]
+http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D
 
-####gcc, gdb, make的安装
-
-#####linux安装gcc,gdb,make
-
+gcc, gdb, make的安装
+----------------------------
+linux安装gcc,gdb,make
+-----------------------------
 linux下一般自带gcc, gdb, make
-
-#####windows安装gcc,gdb,make
-
+---------------------------------------
+windows安装gcc,gdb,make
+-----------------------------------
 可从官网上下载对应的工具, 或者下载集成工具MinGW
 
-####qemu安装
+qemu安装
+------------
+linux安装qemu
+-------------------
+- 可以进入官网选择相应版本下载源码包编译
+http://www.qemu.org/download/#linux
 
-#####linux安装qemu
+- ubuntu在终端运行`sudo apt install qemu`
 
-1. 可以进入官网选择相应版本下载源码包编译
-[http://www.qemu.org/download/#linux]
-
-2. ubuntu在终端运行`sudo apt install qemu`
-
-
-#####windows安装qemu
+windows安装qemu
+------------------------
 
 进入官网下载相应的32位或者64位版本
-[http://www.qemu.org/download/#windows]
+http://www.qemu.org/download/#windows
