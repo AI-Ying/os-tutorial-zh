@@ -2,7 +2,6 @@
 
 所有文件的编写是在linux下完成的, window下面可以同样的工具进行编写, 或者选择虚拟机也可以. 虽然文章会给出windows下软件的解决方案, 但还是推荐windows用户安装linux虚拟机来学习
 
-
 ## 实验软件
 
 - nasm 
@@ -19,6 +18,7 @@
 
 ### 安装nasm
 
+***
 
 #### linux安装nasm
 
@@ -34,7 +34,6 @@ http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D
 
 <br>
 
-
 ### 安装gcc, gdb, make
 
 ***
@@ -48,8 +47,11 @@ http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D
 可从官网上下载对应的工具, 或者下载集成工具MinGW
 
 <br>
+
 ### 安装qemu
+
 ***
+
 #### linux安装qemu
 
 - 可以进入官网选择相应版本下载源码包编译
