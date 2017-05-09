@@ -14,11 +14,12 @@
 ## 实验平台
 
 **linux** OR **windows**
+
 <br>
 
 ### 安装nasm
 
-***
+
 #### linux安装nasm
 
 - 可以进入官网选择相应版本下载源码包编译
@@ -45,6 +46,7 @@ http://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D
 #### windows安装gcc,gdb,make
 
 可从官网上下载对应的工具, 或者下载集成工具MinGW
+
 <br>
 ### 安装qemu
 ***
