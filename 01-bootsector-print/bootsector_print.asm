@@ -20,6 +20,10 @@
 ;                    [BIOS interrupt call]
 ;                    https://www.wikiwand.com/en/BIOS_interrupt_call
 ;
+;    步  骤：    linux下在终端执行：
+;                    nasm -f bin bootsector_print.asm
+;                    qemu bootsector_print
+;
 ;--------------------------------------------------------------------
 
 
@@ -28,7 +32,7 @@ mov ah, 0x0e             ; 设置tty模式
 mov al, 'H'              ; 把字母H放到寄存器al中
 int 0x10                 ; int为x86汇编中的中断调用指令,这里BIOS
                          ; 调用0x100e（AX=AH+AL）中断.把字母H放到
-						 ; 显存处
+		         ; 显存处
 mov al, 'e'              ; 把字母e放到寄存器al中,此时覆盖了字母H
 int 0x10                 ; 以下同理不在赘述
 mov al, 'l'
