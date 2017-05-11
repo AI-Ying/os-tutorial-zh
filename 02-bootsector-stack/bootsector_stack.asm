@@ -35,7 +35,7 @@
 ;    步  骤：    linux下在终端执行：
 ;                    nasm -f bin bootsector_stack.asm
 ;                    qemu bootsector_stack
-;    结  果：    屏幕显示ABCABBC
+;    结  果：    屏幕打印ABCABBC
 ;
 ;--------------------------------------------------------------------------
 
