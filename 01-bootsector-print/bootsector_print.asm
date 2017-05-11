@@ -25,6 +25,7 @@
 ;    步  骤：    linux下在终端执行：
 ;                    nasm -f bin bootsector_print.asm
 ;                    qemu bootsector_print
+;    结  果：    屏幕打印Hello  
 ;
 ;--------------------------------------------------------------------
 
